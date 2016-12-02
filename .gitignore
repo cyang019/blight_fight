@@ -1,0 +1,15 @@
+# ignore raw data
+**/*.csv
+**/*.tsv
+**/__pycache__/**
+**/*.pdf
+
+**/*.shp
+**/*.dbf
+**/*.shx
+**/*.prj
+
+# no cache
+**/.DS_Store
+**/.ipynb_checkpoints/**
+**/*.pyc
