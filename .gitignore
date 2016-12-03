@@ -3,6 +3,7 @@
 **/*.tsv
 **/__pycache__/**
 **/*.pdf
+**/*.swp
 
 **/*.shp
 **/*.dbf
