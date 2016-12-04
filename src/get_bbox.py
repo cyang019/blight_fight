@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 def get_bbox(shapes):
-    '''get a list of 'bbox' attributes from shapes got from
+    '''return a list of 'bbox' attributes from shapes got from
     a shapefile.Reader('path/to/shapes')'''
 
     bboxes = []
@@ -22,10 +22,9 @@ def bbox_list_to_df(bboxes):
     np_bboxes = np.array(bboxes)
     columns = ['llcrnrlon','llcrnrlat','urcrnrlon','urcrnrlat']
     df = pd.DataFrame(bboxes,columns=columns,copy=True)
+    df['id'] = np.arange(df.shape[0])
 
     return df
-
-
     
 
 if __name__ == "__main__":
