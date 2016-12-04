@@ -12,6 +12,15 @@ def invalid_index(shapes):
     shapes: <shapefilereader.shapes()>
     
     return a list of invalid numbers.
+
+    ******************
+    after the position of invalid index been discovered,
+    the cooresponding shape can be removed by performing the following
+    steps:
+    e = shapefile.Editor(shapefile="./parcels.shp")
+    e.delete(27994)  # an invalid entry missing 'parts' attribute.
+    e.save("./parcels") #overwriting the original file
+    ******************
     '''
 
     positions = []
