@@ -1,4 +1,5 @@
 # ignore raw data
+# they are very big
 **/*.csv
 **/*.tsv
 **/__pycache__/**
@@ -9,6 +10,7 @@
 **/*.dbf
 **/*.shx
 **/*.prj
+**/*.zip
 
 # no cache
 **/.DS_Store
