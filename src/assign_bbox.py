@@ -11,9 +11,9 @@ def is_in_bbox(coord, bbox):
     lon, lat = tuple(coord)
     llcrnrlon, llcrnrlat, urcrnrlon, urcrnrlat = tuple(bbox)
 
-    if lon < llcrnrlon or lon > urcrnrlon:
+    if (lon < llcrnrlon) or (lon > urcrnrlon):
         return False
-    if lat < llcrnrlat or lat > urcrnrlat:
+    if (lat < llcrnrlat) or (lat > urcrnrlat):
         return False
     
     return True
