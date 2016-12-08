@@ -8,6 +8,9 @@ Initially I planned to use parcels downloaded from data.detroitmi.gov, since the
 So instead, buildings are constructed in more routine ways as shown in notebook [Building_List_and_Label.ipynb](./src/Building_List_and_Label.ipynb).
 And size info is assumed based on these real buildings as shown in [this](./src/Building_size_estimation.ipynb) notebook.
 
+Building Distribution:
+![B_Distribution](./../data/Building_Distribution.png)
+
 ## Step 2: Assign labels
 
 When deriving building list from events, this was already included.
