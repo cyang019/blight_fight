@@ -19,3 +19,7 @@
 
 # include generated data
 #!data/buildings.csv
+#!data/events.csv
+#!data/test_keys.csv
+#!data/test_data.csv
+#!data/train_data.csv
