@@ -23,3 +23,8 @@
 !data/test_keys.csv
 !data/test_data.csv
 !data/train_data.csv
+
+# not completed yet
+src/Feature_Engineering.ipynb
+
+
