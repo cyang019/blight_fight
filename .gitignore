@@ -16,6 +16,7 @@
 **/.DS_Store
 **/.ipynb_checkpoints/**
 **/*.pyc
+**/*.buffer
 
 # include generated data
 !data/buildings.csv
