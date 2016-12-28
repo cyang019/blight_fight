@@ -5,6 +5,7 @@
 **/__pycache__/**
 **/*.pdf
 **/*.swp
+**/*.model
 
 **/*.shp
 **/*.dbf
@@ -26,6 +27,5 @@
 !data/train_data.csv
 
 # not completed yet
-src/Feature_Engineering.ipynb
 
 
